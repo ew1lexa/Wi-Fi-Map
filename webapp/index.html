@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Wi-Fi Карта Омска</title>
+
+    <!-- Yandex Maps API -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=6686a73a-47f6-4890-a8ea-952cc655b933&lang=ru_RU" type="text/javascript"></script>
+
+    <!-- Telegram Web App SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen со Skebob -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="skebob-logo">
+                <img src="https://memesoundeffects.com/wp-content/uploads/2025/07/image-min-41.jpg" alt="Skebob" class="skebob-img">
+            </div>
+            <h1 class="splash-title">Skebob Studio</h1>
+            <p class="splash-subtitle">Wi-Fi Карта Омска</p>
+            <div class="splash-loader">
+                <div class="coffee-cup">☕</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="app">
+        <!-- Заголовок -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="header-title">
+                    <span class="icon">📶</span>
+                    Wi-Fi точки Омска
+                </h1>
+                <div class="header-stats">
+                    <span id="points-count">Загрузка...</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Поиск -->
+        <div class="search-container">
+            <input
+                type="text"
+                id="search-input"
+                class="search-input"
+                placeholder="🔍 Поиск по названию или адресу..."
+            >
+        </div>
+
+        <!-- Контейнер карты -->
+        <div id="map" class="map-container"></div>
+
+        <!-- Боковая панель с информацией -->
+        <div id="info-panel" class="info-panel hidden">
+            <div class="info-panel-content">
+                <button id="close-panel" class="close-btn">&times;</button>
+
+                <div class="info-header">
+                    <div class="info-icon">📶</div>
+                    <h2 id="info-name" class="info-name"></h2>
+                </div>
+
+                <div class="info-body">
+                    <div class="info-item">
+                        <span class="info-label">📍 Адрес:</span>
+                        <span id="info-address" class="info-value"></span>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">📡 Название сети:</span>
+                        <span id="info-ssid" class="info-value wifi-ssid"></span>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">🔐 Пароль:</span>
+                        <div class="password-container">
+                            <span id="info-password" class="info-value wifi-password"></span>
+                            <button id="copy-password" class="copy-btn" title="Копировать">
+                                📋
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="info-item" id="info-description-container" style="display: none;">
+                        <span class="info-label">ℹ️ Описание:</span>
+                        <span id="info-description" class="info-value"></span>
+                    </div>
+                </div>
+
+                <div class="info-footer">
+                    <button id="navigate-btn" class="action-btn">
+                        🧭 Построить маршрут
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Кнопка "Моё местоположение" -->
+        <button id="my-location-btn" class="my-location-btn" title="Моё местоположение">
+            <span class="location-icon">📍</span>
+        </button>
+
+        <!-- Индикатор загрузки -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Загрузка карты...</p>
+        </div>
+
+        <!-- Список точек (для поиска) -->
+        <div id="search-results" class="search-results hidden"></div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="app.js"></script>
+</body>
+</html>
