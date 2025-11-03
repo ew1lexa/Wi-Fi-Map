@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Библиотека им. Пушкина",
+        "address": "ул. Красный Путь, 3",
+        "coordinates": [54.9849, 73.3674],
+        "ssid": "Library_Free_WiFi",
+        "password": "books2024",
+        "description": "Бесплатный Wi-Fi в читальном зале, работает с 9:00 до 20:00"
+    },
+    {
+        "id": 2,
+        "name": "Парк Победы",
+        "address": "ул. Маршала Жукова, 100",
+        "coordinates": [54.9891, 73.3242],
+        "ssid": "Park_Pobedy_WiFi",
+        "password": "victory1945",
+        "description": "Wi-Fi покрывает центральную часть парка"
+    },
+    {
+        "id": 3,
+        "name": "ТЦ Каскад",
+        "address": "просп. Карла Маркса, 18",
+        "coordinates": [54.9837, 73.3789],
+        "ssid": "Kaskad_Guest",
+        "password": "kaskad_free",
+        "description": "Гостевая сеть торгового центра, доступна во всех залах"
+    },
+    {
+        "id": 4,
+        "name": "Омский ж/д вокзал",
+        "address": "ул. Красный Путь, 2",
+        "coordinates": [54.9726, 73.3954],
+        "ssid": "RZD_WiFi",
+        "password": "rzd2024omsk",
+        "description": "Бесплатный Wi-Fi на территории вокзала"
+    },
+    {
+        "id": 5,
+        "name": "Кофейня \"Чашка\"",
+        "address": "ул. Ленина, 22",
+        "coordinates": [54.9931, 73.3682],
+        "ssid": "Chashka_Coffee",
+        "password": "coffee123",
+        "description": "Wi-Fi для посетителей кофейни"
+    },
+    {
+        "id": 6,
+        "name": "Сквер им. 30-летия ВЛКСМ",
+        "address": "ул. 10 лет Октября",
+        "coordinates": [54.9756, 73.3842],
+        "ssid": "Square_Free",
+        "password": "vlksm30",
+        "description": "Открытая точка доступа в центре сквера"
+    },
+    {
+        "id": 7,
+        "name": "Драмтеатр",
+        "address": "ул. Ленина, 8А",
+        "coordinates": [54.9918, 73.3689],
+        "ssid": "Theater_Guest",
+        "password": "drama2024",
+        "description": "Wi-Fi в фойе театра для посетителей"
+    },
+    {
+        "id": 8,
+        "name": "Спортивный комплекс \"Арена Омск\"",
+        "address": "ул. 70 лет Октября, 25",
+        "coordinates": [54.9512, 73.3845],
+        "ssid": "Arena_Omsk_WiFi",
+        "password": "sport2024",
+        "description": "Гостевая сеть спортивного комплекса"
+    },
+    {
+        "id": 9,
+        "name": "Торговый центр \"Мега\"",
+        "address": "Московка-2",
+        "coordinates": [54.9278, 73.4876],
+        "ssid": "MEGA_Free_WiFi",
+        "password": "megaomsk",
+        "description": "Бесплатный Wi-Fi на всей территории ТЦ"
+    },
+    {
+        "id": 10,
+        "name": "Набережная Иртыша",
+        "address": "Набережная Тухачевского",
+        "coordinates": [54.9894, 73.3598],
+        "ssid": "Irtysh_Public",
+        "password": "river2024",
+        "description": "Публичная точка доступа на набережной"
+    },
+    {
+        "id": 11,
+        "name": "Омский музей изобразительных искусств",
+        "address": "ул. Ленина, 23",
+        "coordinates": [54.9924, 73.3691],
+        "ssid": "Museum_WiFi",
+        "password": "art2024",
+        "description": "Wi-Fi для посетителей музея"
+    },
+    {
+        "id": 12,
+        "name": "Городской сад",
+        "address": "ул. Спартаковская, 1",
+        "coordinates": [54.9752, 73.3712],
+        "ssid": "Garden_Free",
+        "password": "garden123",
+        "description": "Бесплатная точка доступа в парке"
+    },
+    {
+        "id": 13,
+        "name": "Кинотеатр \"Первомайский\"",
+        "address": "ул. 10 лет Октября, 42",
+        "coordinates": [54.9812, 73.3897],
+        "ssid": "Cinema_Guest",
+        "password": "movie2024",
+        "description": "Гостевая сеть кинотеатра"
+    },
+    {
+        "id": 14,
+        "name": "ТЦ \"Континент\"",
+        "address": "ул. 10 лет Октября, 195",
+        "coordinates": [54.9623, 73.3756],
+        "ssid": "Continent_WiFi",
+        "password": "continent_free",
+        "description": "Бесплатный Wi-Fi в торговом центре"
+    },
+    {
+        "id": 15,
+        "name": "Омский Академический театр драмы",
+        "address": "ул. Ленина, 8А",
+        "coordinates": [54.9919, 73.3688],
+        "ssid": "Drama_Public",
+        "password": "theatre123",
+        "description": "Публичная сеть театра"
+    },
+    {
+        "id": 16,
+        "name": "Студенческий парк",
+        "address": "просп. Мира, 32",
+        "coordinates": [54.9687, 73.3923],
+        "ssid": "Student_Park",
+        "password": "students2024",
+        "description": "Wi-Fi точка в студенческом парке"
+    },
+    {
+        "id": 17,
+        "name": "Центральный рынок",
+        "address": "ул. Герцена, 42",
+        "coordinates": [54.9798, 73.3745],
+        "ssid": "Market_WiFi",
+        "password": "market123",
+        "description": "Бесплатная сеть на территории рынка"
+    },
+    {
+        "id": 18,
+        "name": "МФЦ Центральный",
+        "address": "ул. Красный Путь, 155",
+        "coordinates": [54.9764, 73.3812],
+        "ssid": "MFC_Public",
+        "password": "mfc2024omsk",
+        "description": "Гостевая сеть МФЦ"
+    },
+    {
+        "id": 19,
+        "name": "Парк культуры и отдыха",
+        "address": "ул. Масленникова, 114",
+        "coordinates": [55.0145, 73.3289],
+        "ssid": "Park_WiFi",
+        "password": "culture2024",
+        "description": "Wi-Fi в центральной зоне парка"
+    },
+    {
+        "id": 20,
+        "name": "Аэропорт Омск-Центральный",
+        "address": "Аэропорт, 1",
+        "coordinates": [54.9670, 73.3103],
+        "ssid": "Airport_Free",
+        "password": "omsk_air24",
+        "description": "Бесплатный Wi-Fi в терминале аэропорта"
+    }
+]
